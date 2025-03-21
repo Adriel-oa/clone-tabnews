@@ -1,5 +1,4 @@
 import database from "infra/database.js";
-import { Client, ClientBase } from "pg";
 
 async function status(request, response) {
   const updateAt = new Date().toISOString();
