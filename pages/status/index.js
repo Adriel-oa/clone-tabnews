@@ -49,11 +49,11 @@ function DatabaseStatus() {
         </div>
       </>
     );
-    return (
-      <>
-        <h2>Database</h2>
-        <div>{DatabaseStatusIformation}</div>
-      </>
-    );
   }
+  return (
+    <>
+      <h2>Database</h2>
+      <div>{DatabaseStatusIformation}</div>
+    </>
+  );
 }
