@@ -41,12 +41,8 @@ function DatabaseStatus() {
     DatabaseStatusIformation = (
       <>
         <div> Versão: {data.dependencies.database.version}</div>
-        <div>
-          Conexões abertas: {data.dependencies.database.opened_connections}
-        </div>
-        <div>
-          Conexões maximas: {data.dependencies.database.max_connections}
-        </div>
+        <div>Conexões abertas: {data.dependencies.database.opened_connections}</div>
+        <div>Conexões maximas: {data.dependencies.database.max_connections}</div>
       </>
     );
   }
