@@ -1,5 +1,3 @@
-const { preloadModule } = require("react-dom");
-
 exports.up = (pgm) => {
   pgm.createTable("users", {
     id: {
