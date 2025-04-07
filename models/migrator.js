@@ -6,7 +6,8 @@ const defaultMigrationOptions = {
   dryRun: true,
   dir: resolve("infra", "migrations"),
   direction: "up",
-  verbose: true,
+  log: () => {}, //para mandar os logs para o alem, não fica aparecendo nos testes
+  //verbose: true,
   migrationsTable: "pgmigrations",
 };
 
